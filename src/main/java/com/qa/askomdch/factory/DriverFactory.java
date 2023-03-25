@@ -84,7 +84,7 @@ public class DriverFactory {
 				prop.load(ip);
 				break;
 			default:
-				throw new FrameworkException("Invalid enviroment is passed => " + envName);
+				throw new FrameworkException("Invalid enviroment is passed =>  " + envName);
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -104,6 +104,7 @@ public class DriverFactory {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
 		return path;
 	}
 }
