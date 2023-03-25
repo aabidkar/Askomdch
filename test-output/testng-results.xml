@@ -1,41 +1,317 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-06T18:23:29 IST" name="Default suite" finished-at="2023-03-06T18:23:34 IST" duration-ms="5191">
+  <suite started-at="2023-03-25T13:16:08 IST" name="Askomdch App Test Regression Suite" finished-at="2023-03-25T13:16:50 IST" duration-ms="42139">
     <groups>
     </groups>
-    <test started-at="2023-03-06T18:23:29 IST" name="Default test" finished-at="2023-03-06T18:23:34 IST" duration-ms="5191">
+    <test started-at="2023-03-25T13:16:08 IST" name="Login Page Test" finished-at="2023-03-25T13:16:18 IST" duration-ms="10626">
       <class name="com.qa.askomdch.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.askomdch.tests.LoginPageTest@2794eab6]" started-at="2023-03-06T18:23:29 IST" name="setup" finished-at="2023-03-06T18:23:33 IST" duration-ms="3699" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.askomdch.tests.LoginPageTest@1f939a0f]" started-at="2023-03-25T13:16:08 IST" name="setup" finished-at="2023-03-25T13:16:13 IST" duration-ms="5764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.askomdch.tests.LoginPageTest@2794eab6]" started-at="2023-03-06T18:23:33 IST" name="loginPageTitleTest" finished-at="2023-03-06T18:23:33 IST" duration-ms="18" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.qa.askomdch.tests.LoginPageTest@1f939a0f]" started-at="2023-03-25T13:16:13 IST" name="loginPageTitleTest" finished-at="2023-03-25T13:16:14 IST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method signature="loginPageURLTest()[pri:2, instance:com.qa.askomdch.tests.LoginPageTest@2794eab6]" started-at="2023-03-06T18:23:33 IST" name="loginPageURLTest" finished-at="2023-03-06T18:23:33 IST" duration-ms="10" status="PASS">
+        <test-method signature="loginPageURLTest()[pri:2, instance:com.qa.askomdch.tests.LoginPageTest@1f939a0f]" started-at="2023-03-25T13:16:14 IST" name="loginPageURLTest" finished-at="2023-03-25T13:16:14 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageURLTest -->
-        <test-method signature="lostYourPwdLinkExistTest()[pri:3, instance:com.qa.askomdch.tests.LoginPageTest@2794eab6]" started-at="2023-03-06T18:23:33 IST" name="lostYourPwdLinkExistTest" finished-at="2023-03-06T18:23:33 IST" duration-ms="65" status="PASS">
+        <test-method signature="lostYourPwdLinkExistTest()[pri:3, instance:com.qa.askomdch.tests.LoginPageTest@1f939a0f]" started-at="2023-03-25T13:16:14 IST" name="lostYourPwdLinkExistTest" finished-at="2023-03-25T13:16:14 IST" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lostYourPwdLinkExistTest -->
-        <test-method signature="requiredFieldCount()[pri:4, instance:com.qa.askomdch.tests.LoginPageTest@2794eab6]" started-at="2023-03-06T18:23:33 IST" name="requiredFieldCount" finished-at="2023-03-06T18:23:33 IST" duration-ms="18" status="PASS">
+        <test-method signature="requiredFieldCountTest()[pri:4, instance:com.qa.askomdch.tests.LoginPageTest@1f939a0f]" started-at="2023-03-25T13:16:14 IST" name="requiredFieldCountTest" finished-at="2023-03-25T13:16:14 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- requiredFieldCount -->
-        <test-method signature="login()[pri:5, instance:com.qa.askomdch.tests.LoginPageTest@2794eab6]" started-at="2023-03-06T18:23:33 IST" name="login" finished-at="2023-03-06T18:23:34 IST" duration-ms="1124" status="PASS">
+        </test-method> <!-- requiredFieldCountTest -->
+        <test-method signature="loginTest()[pri:5, instance:com.qa.askomdch.tests.LoginPageTest@1f939a0f]" started-at="2023-03-25T13:16:14 IST" name="loginTest" finished-at="2023-03-25T13:16:18 IST" duration-ms="4075" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.askomdch.tests.LoginPageTest@2794eab6]" started-at="2023-03-06T18:23:34 IST" name="tearDown" finished-at="2023-03-06T18:23:34 IST" duration-ms="205" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.askomdch.tests.LoginPageTest@1f939a0f]" started-at="2023-03-25T13:16:18 IST" name="tearDown" finished-at="2023-03-25T13:16:18 IST" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.askomdch.tests.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2023-03-25T13:16:08 IST" name="Register Page Test" finished-at="2023-03-25T13:16:31 IST" duration-ms="23228">
+      <class name="com.qa.askomdch.tests.RegisterPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.askomdch.tests.RegisterPageTest@13e5d243]" started-at="2023-03-25T13:16:08 IST" name="setup" finished-at="2023-03-25T13:16:14 IST" duration-ms="5982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="regPageSetup()[pri:0, instance:com.qa.askomdch.tests.RegisterPageTest@13e5d243]" started-at="2023-03-25T13:16:14 IST" name="regPageSetup" finished-at="2023-03-25T13:16:15 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regPageSetup -->
+        <test-method signature="userRegistrationTest(java.lang.String)[pri:1, instance:com.qa.askomdch.tests.RegisterPageTest@13e5d243]" started-at="2023-03-25T13:16:17 IST" name="userRegistrationTest" data-provider="getRegistrationTestData" finished-at="2023-03-25T13:16:23 IST" duration-ms="5807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="userRegistrationTest(java.lang.String)[pri:1, instance:com.qa.askomdch.tests.RegisterPageTest@13e5d243]" started-at="2023-03-25T13:16:23 IST" name="userRegistrationTest" data-provider="getRegistrationTestData" finished-at="2023-03-25T13:16:31 IST" duration-ms="7847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[654321.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.askomdch.tests.RegisterPageTest@13e5d243]" started-at="2023-03-25T13:16:31 IST" name="tearDown" finished-at="2023-03-25T13:16:31 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.askomdch.tests.RegisterPageTest -->
+    </test> <!-- Register Page Test -->
+    <test started-at="2023-03-25T13:16:08 IST" name="Account Page Test" finished-at="2023-03-25T13:16:50 IST" duration-ms="41923">
+      <class name="com.qa.askomdch.tests.AccountPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:08 IST" name="setup" finished-at="2023-03-25T13:16:12 IST" duration-ms="4572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="accPageSetup()[pri:0, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:12 IST" name="accPageSetup" finished-at="2023-03-25T13:16:16 IST" duration-ms="3261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageSetup -->
+        <test-method signature="accountPageTitleTest()[pri:1, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:16 IST" name="accountPageTitleTest" finished-at="2023-03-25T13:16:16 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountPageTitleTest -->
+        <test-method signature="accountPageURLTest()[pri:2, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:16 IST" name="accountPageURLTest" finished-at="2023-03-25T13:16:16 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountPageURLTest -->
+        <test-method signature="accLogoutLinkExistTest()[pri:3, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:16 IST" name="accLogoutLinkExistTest" finished-at="2023-03-25T13:16:16 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accLogoutLinkExistTest -->
+        <test-method signature="accPageNavigationListCountTest()[pri:4, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:16 IST" name="accPageNavigationListCountTest" finished-at="2023-03-25T13:16:16 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageNavigationListCountTest -->
+        <test-method signature="accPageNavigationListTest()[pri:5, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:16 IST" name="accPageNavigationListTest" finished-at="2023-03-25T13:16:16 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageNavigationListTest -->
+        <test-method signature="clickOnStoreLink()[pri:6, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:16 IST" name="clickOnStoreLink" finished-at="2023-03-25T13:16:18 IST" duration-ms="2009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnStoreLink -->
+        <test-method signature="storeSearchCount(java.lang.String)[pri:7, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:19 IST" name="storeSearchCount" data-provider="getProductData" finished-at="2023-03-25T13:16:22 IST" duration-ms="2441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeSearchCount -->
+        <test-method signature="storeSearchCount(java.lang.String)[pri:7, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:22 IST" name="storeSearchCount" data-provider="getProductData" finished-at="2023-03-25T13:16:24 IST" duration-ms="2278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeSearchCount -->
+        <test-method signature="storeSearchCount(java.lang.String)[pri:7, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:24 IST" name="storeSearchCount" data-provider="getProductData" finished-at="2023-03-25T13:16:26 IST" duration-ms="2555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bracelet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeSearchCount -->
+        <test-method signature="storeSearchCount(java.lang.String)[pri:7, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:26 IST" name="storeSearchCount" data-provider="getProductData" finished-at="2023-03-25T13:16:29 IST" duration-ms="2505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- storeSearchCount -->
+        <test-method signature="selectProduct(java.lang.String,java.lang.String)[pri:8, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:29 IST" name="selectProduct" data-provider="getProductTestData" finished-at="2023-03-25T13:16:34 IST" duration-ms="5358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Denim Blue Jeans]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method signature="selectProduct(java.lang.String,java.lang.String)[pri:8, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:34 IST" name="selectProduct" data-provider="getProductTestData" finished-at="2023-03-25T13:16:39 IST" duration-ms="5016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Red Shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method signature="selectProduct(java.lang.String,java.lang.String)[pri:8, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:39 IST" name="selectProduct" data-provider="getProductTestData" finished-at="2023-03-25T13:16:44 IST" duration-ms="4979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bracelet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Boho Bangle Bracelet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method signature="selectProduct(java.lang.String,java.lang.String)[pri:8, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:44 IST" name="selectProduct" data-provider="getProductTestData" finished-at="2023-03-25T13:16:49 IST" duration-ms="5015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Green Tshirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.askomdch.tests.AccountPageTest@2abbd0d9]" started-at="2023-03-25T13:16:49 IST" name="tearDown" finished-at="2023-03-25T13:16:50 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.askomdch.tests.AccountPageTest -->
+    </test> <!-- Account Page Test -->
+    <test started-at="2023-03-25T13:16:08 IST" name="ProductInfo Page Test" finished-at="2023-03-25T13:16:50 IST" duration-ms="42138">
+      <class name="com.qa.askomdch.tests.ProductInfoPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.askomdch.tests.ProductInfoPageTest@682abca7]" started-at="2023-03-25T13:16:08 IST" name="setup" finished-at="2023-03-25T13:16:13 IST" duration-ms="5731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="productInfoPageSetup()[pri:0, instance:com.qa.askomdch.tests.ProductInfoPageTest@682abca7]" started-at="2023-03-25T13:16:13 IST" name="productInfoPageSetup" finished-at="2023-03-25T13:16:17 IST" duration-ms="3863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoPageSetup -->
+        <test-method signature="relatedProductImageCountTest(java.lang.String,java.lang.String,int)[pri:1, instance:com.qa.askomdch.tests.ProductInfoPageTest@682abca7]" started-at="2023-03-25T13:16:17 IST" name="relatedProductImageCountTest" data-provider="getProductTestData" finished-at="2023-03-25T13:16:27 IST" duration-ms="9889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Denim Blue Jeans]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- relatedProductImageCountTest -->
+        <test-method signature="relatedProductImageCountTest(java.lang.String,java.lang.String,int)[pri:1, instance:com.qa.askomdch.tests.ProductInfoPageTest@682abca7]" started-at="2023-03-25T13:16:27 IST" name="relatedProductImageCountTest" data-provider="getProductTestData" finished-at="2023-03-25T13:16:36 IST" duration-ms="8739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Red Shoes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- relatedProductImageCountTest -->
+        <test-method signature="addToCartTest(java.lang.String,java.lang.String)[pri:3, instance:com.qa.askomdch.tests.ProductInfoPageTest@682abca7]" started-at="2023-03-25T13:16:36 IST" name="addToCartTest" data-provider="addProductTestData" finished-at="2023-03-25T13:16:43 IST" duration-ms="6853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blue]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Denim Blue Jeans]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method signature="addToCartTest(java.lang.String,java.lang.String)[pri:3, instance:com.qa.askomdch.tests.ProductInfoPageTest@682abca7]" started-at="2023-03-25T13:16:43 IST" name="addToCartTest" data-provider="addProductTestData" finished-at="2023-03-25T13:16:50 IST" duration-ms="6778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Red Shoes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.askomdch.tests.ProductInfoPageTest@682abca7]" started-at="2023-03-25T13:16:50 IST" name="tearDown" finished-at="2023-03-25T13:16:50 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.askomdch.tests.ProductInfoPageTest -->
+    </test> <!-- ProductInfo Page Test -->
+  </suite> <!-- Askomdch App Test Regression Suite -->
 </testng-results>

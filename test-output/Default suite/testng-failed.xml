@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.askomdch.tests.LoginPageTest">
+      <class name="com.qa.askomdch.tests.RegisterPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="lostYourPwdLinkExistTest"/>
+          <include name="regPageSetup"/>
+          <include name="userRegistrationTest" invocation-numbers="0 1"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.qa.askomdch.tests.LoginPageTest -->
+      </class> <!-- com.qa.askomdch.tests.RegisterPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
